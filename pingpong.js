@@ -3,8 +3,8 @@ const contractABI = require("./abi.json");
 require("dotenv").config();
 
 const privateKey = process.env.PRIVATE_KEY;
-const contractAddress = "0x6fAa06495E7F9D1C2123eD66E97F42E5C9Dc4A55"; // test
-//const contractAddress = "0x7D3a625977bFD7445466439E60C495bdc2855367";
+//const contractAddress = "0x6fAa06495E7F9D1C2123eD66E97F42E5C9Dc4A55"; // test
+const contractAddress = "0x7D3a625977bFD7445466439E60C495bdc2855367";
 let lastProcessedBlockNumber = 0;
 let deliverableBlockNumber = 0;
 let count = 0;
